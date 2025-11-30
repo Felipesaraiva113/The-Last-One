@@ -58,7 +58,7 @@ class Zombies {
     } else {
       this.element.src = 'imagens/walking zombie right.gif';
     }
-    // importante: forçar position e colocar em board
+
     this.element.style.position = 'absolute';
     this.element.style.left = `${this.x}px`;
     this.element.style.top = `${this.y}px`;
@@ -68,7 +68,7 @@ class Zombies {
     const dx = this.target.x - this.x;
     const dy = this.target.y - this.y;
     const distance = Math.sqrt(dx * dx + dy * dy);
-    // 🔧 Se o zumbi estiver muito perto do alvo, não atualiza mais
+       
     if (distance >= 2) {
       this.x += (dx / distance) * this.speed;
       this.y += (dy / distance) * this.speed;
