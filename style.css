@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game-board {
+    width: 80%;
+    height: 500px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(11, 173, 46);
+}
+.w {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+}
+.zombies {
+    width: 200px;
+    height: 32%;
+    position: absolute;
+    z-index: 1000;
+    transform: translate(-50%,-50%);
+}
+.informations {
+    color: rgb(204, 14, 14);
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 10px;
+}
+body {
+    background-color: white;
+}
+.drone {
+    position:absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+}
+.game-over {
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
