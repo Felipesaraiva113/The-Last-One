@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>The Last One</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            font-size: xx-large;
+            background-color: gainsboro;
+            background-color: black;
+            word-spacing: -0.2em;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: rgb(1, 1, 126);
+        }
+        a:hover {
+            color: gray;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::before {
+            content: '=> ';
+        }
+        a::after {
+            content: ' <=';
+        }
+        div {
+            text-align: center;
+            margin: 50px auto;
+            cursor: pointer;
+            color: aqua;
+    }
+    div > p {
+        text-align: center;
+        display: none;
+        margin: 10px auto;
+        width: auto;
+        max-width: 600px;
+        font-size: 20px;
+    }
+    div>div {
+        font-weight:  bolder;
+    }
+    div:hover > div {
+        color: rgb(6, 255, 6);
+    }
+    div:hover > p {
+        display: block;
+        color: green;
+        width: auto;
+    }
+    h1 {
+        color: red;
+        word-spacing: -0.3em;
+    }
+    </style>
+</head>
+<body>
+    <h1>THE LAST ONE</h1>
+    <p><a href="https://github.com/Felipesaraiva113/The-Last-One" >Repositório no Github</a></p>
+    <p><a href="https://www.youtube.com/playlist?list=PLpdAy0tYrnKwSUtzFssaLV-KaOWAccdql" target="_blank">Jogo desenvolvido com os conhecimentos adquiridos neste curso</a></p>
+    <p><a href="index.html">Jogue The Last One</a></p>
+    <div>
+        <div>LEIA ANTES DE JOGAR</div>
+        <p>Você controla um poderoso drone militar e seu objetivo é proteger W. Para fazer isso, clique nos zumbis para matá-los. Bom jogo!</p>
+    </div>
+</body>
+</html>
