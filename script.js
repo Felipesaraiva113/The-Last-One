@@ -161,13 +161,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
     requestAnimationFrame(gameLoop);
 });
 document.addEventListener('DOMContentLoaded', ()=>{
-  console.log('DIÁRIO DE PANDEMIA DO W: DIA 229.');
-  console.log('LOCAL: NOVA BASE DOS "MOCHILEIROS DO PIOR APOCALIPSE DAS GALÁXIAS (M.P.A.G)" - ainda odeio esse nome, Karl.');
-  console.log('Já faz um mês desde que nossa antiga base foi destruída por aquele zumbi desgraçado que um dia foi o Capitão Osso Duro. Desde então, ficamos deslocados, sem abrigo nem proteção, vagando em busca de suprimentos e uma nova base como cães abandonados. Mas hoje, a peregrinação finalmente nos recompensou: encontramos uma estrutura fortificada de nível militar, quase intocada. Eletricidade, reforços estruturais. É até estranho pensar que tudo isso estava esondido no subterrâneo de uma filial da Robscorp, mas isso não importa agora.');
-  console.log('A maior descoberta, no entanto, não foi o bunker, mas o novo anfitrião. Um garoto magricela de armadura negra, o herdeiro legítimo desta instalação. Ele nunca tira o capacete. Frio e silencioso, mais do que eu. É ele quem opera a engenhoca de defesa: Drones Esféricos de Alta Tecnologia – Karl o chamou de "O Olho de Horus". Vi um deles desintegrar um bando de zumbis com apenas um "pensamento" de sua IA. Tecnologia impressionante, mesmo para mim.')
-  console.log('Ele nos tolera, mas há algo no seu olhar (na fresta do capacete) que me diz que ele me odeia. Não confio nele. Se não fosse por Karl, eu o teria eliminado e tomado a base para nós. Mas o olhar dele... É uma sensação estranha de déjà vu. Algo que me lembra do Harry, o que é um absurdo, já que eu o vi sendo transformado em zumbi na minha frente. Não consigo pensar nisso. Não agora.');
-  console.log('Somos agora seis. Temos Karl, Lana, Matthew, dr. Bagtavius/Baguete (devido so cabeção e suas características francesas) e o garoto sem nome. A contagem de mortos sempre volta: Ryan, GPU, Hashi e Caroline. Eu não vou deixar esse número subir.');
-  console.log('CONCLUSÃO: O objetivo imediato é claro: adaptar-se, assegurar o perímetro e, o mais importante, extrair o máximo de informação e tecnologia bélica do nosso novo anfitrião.Espero que a "paz" de hoje dure até lá.');
   theme.volume = 0.2;
   zombieSound.volume = 1;
     secondInterval = setInterval(() => {
